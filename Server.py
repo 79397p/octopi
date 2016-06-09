@@ -1,4 +1,5 @@
-#I want to spend my summer having fun creating. For that reason I decided to just base this on something familiar (my socket programming assignments from NTNU).
+#I want to spend my summer having fun creating. For that reason I decided to just 
+#base this on something familiar (my socket programming assignments from NTNU).
 
 # Import socket module
 from socket import *
