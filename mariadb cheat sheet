@@ -1,0 +1,15 @@
+mariadb cheat sheet for fedora:
+
+start mariadb:
+> systemctl start mariadb.service ## use restart after update
+
+enable autostart on boot:
+> systemctl enable mariadb.service
+
+connect to MySQL database (localhost) with pasword
+>mysql -u root -p
+OR
+>mysql -h localhost -u root -p
+
+for more see:
+http://www.if-not-true-then-false.com/2013/install-mariadb-on-fedora-centos-rhel/
